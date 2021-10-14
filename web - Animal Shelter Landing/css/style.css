@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --btn-color1: #DAAB31;
+    --btn-color1-hover: #A37F25;
+    --white: #fff;
+    --black: #000;
+    --cinzabtn: #878787;
+    --cinzahover: #5c5b5b;
+    --bgcpreto: #1C1C1C;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;     
+}
+.content{
+    width: 70vw;
+    margin: auto;        
+}
+/*Header**********************************/
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:var(--white);
+    padding: 25px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;  
+    z-index: 999;  
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.404);
+}
+nav{
+    display: flex;
+}
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+header ul li{
+    position: relative;
+    list-style: none;
+}
+header a{
+    position: relative;
+    margin: 0 10px;
+    text-decoration: none;
+    color: var(--black);
+    font-size: 0.9em;
+    font-weight:500;
+    transition: 0.6s;
+}
+header a>li{
+    height: 25px;
+    
+}
+header a>li:hover{     
+    transition:none;
+    border-bottom: 2px solid var(--black);
+}
+.logo{
+    font-size: 1.3em;
+    font-weight: 600;
+    margin: 0;
+}
+header.sticky{
+    padding: 10px 40px;    
+}
+/*Banner**************************************/
+.banner{
+    width: 100%; 
+    height:120vh;  
+}
+.banner img{   
+    position: relative;
+    top: 0;
+    left: 0;    
+    width: 100%; 
+    height:120vh;    
+    object-fit: cover;    
+}
+.txtbanner{
+    position: absolute;  
+    padding: 20px 0; 
+    top: 200px;
+    left: 14vw; 
+    width: 40vw;
+    height: auto;     
+    z-index: 998;   
+}
+h1{
+    font-size: 4em;
+    font-weight: 900;       
+    background-color: rgba(255, 255, 255, 0.397);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+p.pbanner{
+    font-size: 1.1em;
+    font-weight: 600;
+    line-height: 32px;
+}
+button.btn02,
+button.btn01{
+    width: 218px;
+    height: 50px;
+    border:none;
+    border-radius: 50px;
+    color: var(--white);
+    font-size: 1.1em;
+    cursor: pointer;  
+    margin-top: 25px;  
+}
+button.btn01{
+    background-color: var(--btn-color1);
+}
+button.btn01:hover{
+    background-color: var(--btn-color1-hover);
+}
+button.btn02{
+    background-color: var(--cinzabtn);
+}
+button.btn02:hover{
+    background-color: var(--cinzahover);
+}
+
+/*saveAnimal***********************************/
+.saveAnimal{
+    position: relative;
+    width: 100%;  
+    height: 100%;    
+    text-align: center;
+    z-index: 997;
+    background-color:var(--white);
+}
+.saveAnimal::after{
+    content:'';
+    position: absolute;
+    background: url(../assets/Vector01.svg) no-repeat;  
+    overflow: hidden;      
+    top:-317px;
+    left: 0;    
+    width: 100%;
+    height: 100%; 
+    z-index: 998;    
+}
+h3.subtitle{
+    color: #797979;
+    font-weight: 600;
+    font-size: 1em;
+}
+h2.title{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 2em;
+}
+.section01{
+    padding-top: 30px;   
+}
+.contanttxt{
+    display: flex; 
+    justify-content: space-between;   
+    margin-top: 80px;
+    padding-bottom: 100px;
+    width: 100%;
+    text-align: left;
+}
+.adopting{
+    width: 48%;
+}
+.adopting h4{
+    font-size: 1.3em;   
+}
+.adopting p{
+    font-size: 1em;
+    margin: 10px 0 20px 0;
+    font-weight: 500;
+    line-height: 30px;
+    color: var(--cinzahover);
+}
+.adopting button{
+    border:none;
+    border-radius: 50px;
+    background-color: var(--btn-color1);
+    width: 100px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 0.8em;
+    color: var(--white);
+    cursor: pointer;
+}
+.adopting button:hover{
+    background-color: var(--btn-color1-hover);
+}
+.btn002{
+    margin-top: 32px;
+}
+
+/*Featured *************************************************/
+.featured{ 
+    position: relative;   
+    width: 100%;
+    height: 170vh;
+}
+.featured img{   
+    position: absolute;    
+    top: 0;
+    left: 0;    
+    width: 100%;  
+    height: 170vh;       
+    object-fit: cover;          
+}
+.box{  
+    display: flex; 
+    align-items: center;    
+    margin-bottom: 10px;  
+}
+.boxAnimals{
+    position: relative;  
+    top: 135px;
+    left: 0;
+    width: 40vw; 
+    min-width: 400px;   
+    background-color: rgba(255, 255, 255, 0.705);
+    border-radius: 30px;  
+    padding: 40px 30px;    
+}
+.img img{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+.boxAnimals h3{
+    font-size: 1.3em; 
+    font-weight: 500; 
+    margin-bottom: 20px; 
+}
+.boxAnimals h4{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2em;
+    line-height: 27px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+.boxAnimals p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 27px;    
+    color: var(--cinzabtn);
+}
+/*Service*****************************************************************/
+.service{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bgcpreto);
+    text-align: center;
+    z-index: 997;
+}
+.service::after{
+    content:'';
+    position: absolute;
+    width: 100%;
+    height: 264px; 
+    background: url(../assets/vector02.svg) no-repeat; 
+    overflow: hidden;            
+    top:-264px;
+    left: 0;    
+    z-index: 998;    
+}
+.section3{    
+    padding: 30px;   
+}
+.white{
+    color: var(--white);
+}
+.serviceContent{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;    
+}
+.serviceContent:last-child{
+    margin-bottom: 200px;
+}
+.serviceBox{
+    width: 45%; 
+    min-width: 300px;
+    color: var(--white);       
+    margin-top: 80px; 
+    padding: 10px;  
+}
+.serviceBox h2{
+    font-size: 1.3em;
+    margin-top: 10px;
+}
+.serviceBox p{
+    font-size: 0.8em;
+    margin-top: 10px;
+    font-weight: 300;
+    line-height: 27px;
+}
+/*Ourmission************************************************************************/
+
+.section4{
+    position: relative;
+}
+.boxmission{    
+    position: absolute;
+    top: -180px;
+    left: 0;
+    width: 100%;
+    background-color:var(--btn-color1);
+    text-align: center;
+    border-radius: 10px;
+    padding: 50px;
+    z-index: 998;
+}
+.boxmission p{
+    width: 80%;
+    margin: 0 auto;
+    line-height: 30px;
+    color:var(--white);
+}
+.boxmission h2{
+    margin-bottom: 20px;
+}
