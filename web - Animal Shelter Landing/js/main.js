@@ -4,7 +4,7 @@ window.addEventListener('scroll', function(){
     header.classList.toggle('sticky', window.scrollY > 0);
 })
 
-//Efeito Parallax na imagem
+//Efeito Parallax na imagem do banner
 const image = document.querySelector('#imageParallax');
 window.addEventListener('scroll',function(){
     const value = window.scrollY;
