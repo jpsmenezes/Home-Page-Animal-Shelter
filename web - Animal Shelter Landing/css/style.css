@@ -381,21 +381,38 @@ h2.title{
     width: 35vw;
     padding: 50px;
 }
-
+.boxmission3:first-child{
+    margin-bottom: 30px;   
+}
 .boxmission3 h3{
     margin-bottom: 20px;
     font-size: 1.3em;
 }
 .boxmission3 p{
-    line-height: 30px;
-    margin-left: 45px;    
+    line-height: 25px;
+    margin-left: 45px;
+    font-size: 0.8em;    
 }
+.boxmission3 button{
+    width: 200px;   
+    height: 55px;
+    border: none;
+    color: var(--white);
+    border-radius: 30px;
+    background-color: var(--btn-color1);
+    margin-top: 20px;
+    cursor: pointer;
+}
+.boxmission3 button:hover{
+    background-color: var(--btn-color1-hover);
+}
+.boxcalendar2 h4::before,
 .boxcalendar h4::before{
     position: relative;
     top: 7px;
     content: url(../assets/icon-calendar.png);
     padding: 0 15px 0 0;    
 }
-.boxcalendar h4{
-    
+.boxcalendar2{
+    margin-top: 15px;
 }
