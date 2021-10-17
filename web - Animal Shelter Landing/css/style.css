@@ -316,7 +316,10 @@ h2.title{
     line-height: 27px;
 }
 /*Ourmission************************************************************************/
-
+.ourMission{
+    width: 100%;
+    height: 120vh;
+}
 .section4{
     position: relative;
 }
@@ -415,4 +418,42 @@ h2.title{
 }
 .boxcalendar2{
     margin-top: 15px;
+}
+/*Features Pets **************************************************************************************/
+.pets{   
+    width: 100%;
+    height: 100vh;   
+}
+.pets .section06{   
+    text-align: center;
+}
+.pictures{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.images{
+    width: 250px;
+    height: 400px;
+    text-align: left;
+    margin: 20px;
+}
+.images h3{
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+.images p{
+    font-size: 0.9em;
+}
+.images p:last-child{
+    margin-top: 7px;
+}
+.boximage img{
+    width: 280px;
+    height: 280px;    
+    object-fit: cover;
+    border-radius: 10px;
+}
+.pets h2{
+    margin-bottom: 30px;
 }
