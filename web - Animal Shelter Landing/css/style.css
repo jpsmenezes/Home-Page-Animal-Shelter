@@ -22,7 +22,7 @@ body{
     width: 70vw;
     margin: auto;        
 }
-/*Header**********************************/
+/*Header *************************************************************************************/
 header{
     position: fixed;
     top: 0;
@@ -76,7 +76,7 @@ header a>li:hover{
 header.sticky{
     padding: 10px 40px;    
 }
-/*Banner**************************************/
+/*Banner ************************************************************************************************/
 .banner{
     width: 100%; 
     height:120vh;  
@@ -134,7 +134,7 @@ button.btn02:hover{
     background-color: var(--cinzahover);
 }
 
-/*saveAnimal***********************************/
+/*saveAnimal************************************************************************************************/
 .saveAnimal{
     position: relative;
     width: 100%;  
@@ -267,7 +267,7 @@ h2.title{
 .service{
     position: relative;
     width: 100%;
-    height: 100%;
+    height: auto;
     background-color: var(--bgcpreto);
     text-align: center;
     z-index: 997;
@@ -318,14 +318,14 @@ h2.title{
 /*Ourmission************************************************************************/
 .ourMission{
     width: 100%;
-    height: 120vh;
+    height: auto;
 }
 .section4{
     position: relative;
 }
 .boxmission{    
-    position: absolute;
-    top: -180px;
+    position: relative;
+    top: -150px;
     left: 0;
     width: 100%;
     background-color:var(--btn-color1);
@@ -346,9 +346,9 @@ h2.title{
 }
 .section5{
     position: relative;
-    display: flex;   
-    top: 190px;
-    left: 0;    
+    top: -100px;
+    display: flex;  
+    height: auto;   
 }
 .boxmission2{
     width: 35vw;  
@@ -422,7 +422,7 @@ h2.title{
 /*Features Pets **************************************************************************************/
 .pets{   
     width: 100%;
-    height: 100vh;   
+    height: auto;   
 }
 .pets .section06{   
     text-align: center;
@@ -456,4 +456,93 @@ h2.title{
 }
 .pets h2{
     margin-bottom: 30px;
+}
+.section06 button{
+    position: relative;
+    width: 200px;   
+    height: 55px;
+    border: none;
+    color: var(--white);
+    border-radius: 30px;
+    background-color: var(--btn-color1);
+    margin: 40px 0 100px 0;
+    cursor: pointer;
+    z-index: 996;
+}
+.section06 button:hover{
+    background-color: var(--btn-color1-hover);
+}
+/*Pet Adoption Notes **********************************************************************************/
+.adoptionnotes{
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 100px;    
+    background-color:var(--btn-color1);
+}
+.adoptionnotes::after{
+    content:'';
+    position: absolute;
+    width: 100%;
+    height: 264px; 
+    background: url(../assets/Vector03.svg) no-repeat; 
+    overflow: hidden;            
+    top:-264px;
+    left: 0;    
+    z-index: 995;     
+}
+.adoptionnotes_txt{
+    display: flex;
+    margin-top: 40px;   
+    text-align: left;
+    color: var(--white);
+    justify-content: space-between;
+}
+.adopting_txt{
+    width: 46%;
+}
+.adopting_txt p{
+    font-size: 1em;
+    margin: 10px 0 20px 0;
+    font-weight: 300;
+    line-height: 30px;    
+}
+.adopting_txt button{
+    width: 260px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background: var(--btn-color1-hover);
+    color: var(--white);
+    cursor: pointer;
+    margin-bottom: 70px;
+}
+.adopting_txt button:hover{
+    background-color:#6A4111;    
+}
+/*Join Our Newsletter ****************************************************************************/
+.newsletter{ 
+    position: relative;   
+    width: 100%;
+    height: auto;
+}
+.newsletter::after{
+    content:'';
+    position: absolute;
+    width: 100%;
+    height: 316.5px; 
+    background: url(../assets/Vector04.svg) no-repeat; 
+    overflow: hidden;            
+    top:-1px;
+    left: 0;    
+    z-index: 998;     
+}
+.newsletter img{   
+    position: absolute;    
+    top: 0;
+    left: 0;    
+    width: 100%;  
+    height: auto;       
+    object-fit: cover;          
 }
