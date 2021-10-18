@@ -523,9 +523,11 @@ h2.title{
 }
 /*Join Our Newsletter ****************************************************************************/
 .newsletter{ 
-    position: relative;   
+    position: relative; 
+    top: 0;
+    left: 0;  
     width: 100%;
-    height: auto;
+    height: 120vh;
 }
 .newsletter::after{
     content:'';
@@ -543,6 +545,112 @@ h2.title{
     top: 0;
     left: 0;    
     width: 100%;  
-    height: auto;       
+    height: 100%;       
     object-fit: cover;          
+}
+.box_newsletter{
+    width: 100%;
+    height: auto;   
+    position: relative;
+    z-index: 999;
+    text-align: center;
+    padding-top: 200px;
+    color: var(--white);
+}
+.box_newsletter form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.box_newsletter input[type=email]{
+    width: 30vw;
+    height: 6vh;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.452);
+    padding: 10px;    
+}
+.box_newsletter input[type=email]::placeholder{    
+    opacity: 1;
+    color: var(--white);
+    font-size: 1.1em;
+    font-weight: 300;
+}
+.box_newsletter input[type=submit]{
+    width: 30vw;
+    height: 6vh; 
+    border: none;
+    border-radius: 30px;   
+    padding: 10px;  
+    background-color:var(--btn-color1);  
+    margin-top: 30px;
+    color: var(--white); 
+    cursor: pointer; 
+    margin-bottom: 100px;
+}
+.box_newsletter input[type=submit]:hover{
+    background-color: var(--btn-color1-hover);
+}
+.iconsocialmedia{
+    display: flex;
+    justify-content: space-around;    
+    width: 50%;   
+    min-width: 400px;
+    margin: 0 auto;
+}
+.iconsocialmedia .sm{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background-color: #c4c4c471;
+    border-radius: 30px;
+    cursor: pointer;    
+}
+.iconsocialmedia .sm:hover{
+    background-color: #086d7a94;
+}
+.iconsocialmedia .sm img{
+    position: absolute;
+    width: 32px;
+    height:auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;       
+}
+.iconsocialmedia .sm img:last-child{
+    width: auto;
+    height: 32px;
+}
+/*Footer ***********************************************************************/
+footer{    
+    background-color: var(--bgcpreto);
+    width: 100%;
+    height: auto;
+}
+.section09{    
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    color: #797979;
+    font-weight: 200;   
+}
+.section09 span{
+    font-weight: 500;
+}
+.footersocialmedia{
+    display: flex;
+    width: auto;
+    height: auto; 
+    cursor: pointer;           
+}
+.footersocialmedia div{
+    margin-left: 20px;
+    opacity: 0.3;   
+}
+.footersocialmedia div:hover{
+    opacity: 0.7;
 }
