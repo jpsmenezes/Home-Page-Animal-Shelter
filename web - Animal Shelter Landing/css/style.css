@@ -634,9 +634,10 @@ footer{
     display: flex;  
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    padding: 15px 0;
     color: #797979;
-    font-weight: 200;   
+    font-weight: 200; 
+    font-size: 0.8em;  
 }
 .section09 span{
     font-weight: 500;
@@ -647,7 +648,11 @@ footer{
     height: auto; 
     cursor: pointer;           
 }
-.footersocialmedia div{
+.footersocialmedia img{
+    width: 30px;
+    height:auto;
+}   
+.footersocialmedia div{    
     margin-left: 20px;
     opacity: 0.3;   
 }
