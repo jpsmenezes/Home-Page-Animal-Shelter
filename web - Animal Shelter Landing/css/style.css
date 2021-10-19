@@ -76,6 +76,10 @@ header a>li:hover{
 header.sticky{
     padding: 10px 40px;    
 }
+.menu-opener{
+    display: none;
+    width: 20px;    
+}
 /*Banner ************************************************************************************************/
 .banner{
     width: 100%; 
@@ -577,6 +581,9 @@ h2.title{
     font-size: 1.1em;
     font-weight: 300;
 }
+.box_newsletter input[type=email]:focus{
+   outline: 2px solid var(--btn-color1);
+}
 .box_newsletter input[type=submit]{
     width: 30vw;
     height: 6vh; 
@@ -658,4 +665,16 @@ footer{
 }
 .footersocialmedia div:hover{
     opacity: 0.7;
+}
+/*****************************************************************************************/
+@media screen and (max-width: 1030px){
+    .menu-opener{
+        display: block;
+    }
+    .logo{
+        margin-left: 20px;
+    }
+    nav{
+        display: none;             
+    }
 }
