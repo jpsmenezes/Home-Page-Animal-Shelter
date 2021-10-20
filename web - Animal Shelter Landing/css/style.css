@@ -224,11 +224,6 @@ h2.title{
     height: 170vh;       
     object-fit: cover;          
 }
-.box{  
-    display: flex; 
-    align-items: center;    
-    margin-bottom: 10px;  
-}
 .boxAnimals{
     position: relative;  
     top: 135px;
@@ -238,6 +233,11 @@ h2.title{
     background-color: rgba(255, 255, 255, 0.705);
     border-radius: 30px;  
     padding: 40px 30px;    
+}
+.box{  
+    display: flex; 
+    align-items: center;    
+    margin-bottom: 10px;  
 }
 .img img{
     position: relative;
@@ -677,6 +677,23 @@ footer{
     }
     nav{
         display: none;             
+    }    
+}
+@media screen and (max-width: 1015px){
+    .contanttxt{
+        display: flex; 
+        flex-direction: column;            
+        align-items: center;         
+        text-align: left;
+    }
+    .adopting{
+        width: 90%;
+    }
+    .adopting:first-child{
+        margin-bottom: 50px;
+    }
+    .btn002{
+        margin-top: 0;
     }
 }
 @media screen and (max-width: 754px){    
@@ -688,10 +705,21 @@ footer{
         top: 120px;                  
     }
     h1{
-        font-size: 3em;        
-    }
-    p.pbanner{
-       
+        font-size: 2.5em;
         text-align: center;        
     }
+    p.pbanner{       
+        text-align: center;        
+    }
+}
+@media screen and (max-width: 655px){
+    .boxAnimals{          
+        top: 135px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 0 auto;
+        width: 80vw; 
+        min-width: 300px;          
+    }    
 }
