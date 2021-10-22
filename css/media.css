@@ -72,7 +72,7 @@
         text-align: center;        
     }
 }
-
+/*/////////////////////////// TELA DE 655PX /////////////////////////////////*/
 @media screen and (max-width: 655px){
     .boxAnimals{          
         top: 135px;
@@ -86,8 +86,139 @@
     .boxcalendar {
         width: 400px;    
     }
-}
-@media screen and (max-width: 550px){
+    /*************************************************************************/   
+        .content{
+            width: 90vw;
+        }
+        /*HEADER ********************************/
+        header{        
+            padding: 25px 40px;       
+        }
+        .logo{
+            font-size: 1em; 
+            margin-left: 0;       
+        }      
+       
+         /*BANNER **************************/
+        .banner h3{
+            font-size: 1em;
+        }
+        h1{
+            font-size: 2em;
+        }
+        p.pbanner{
+            font-size: 0.9em;        
+            line-height: 25px;
+            margin-top: 30px;
+        }
+         /*SAVE AN ANIMAL **************************/
+        .contanttxt{       
+            margin-top: 30px; 
+            text-align: center;      
+        }   
+        h2.title{       
+            font-size: 1.7em;
+        }
+        .adopting:first-child{
+            margin-bottom: 80px;
+        }
+         /*FEATUREDS CATS AND DOGS **************************/
+        .boxAnimals{
+            width: 90vw;
+            top: 50px;        
+        }
+        .boxAnimals h3{
+            text-align: center;
+            font-size: 1em;
+        }    
+        .featured{       
+            height: 900px;
+        }
+        /*OURS SERVICES **************************/
+        .section3{
+            padding: 0 0 50px;
+        }  
+         /*OURS MISSION **************************/
+        .boxmission{       
+            padding: 10px;       
+        } 
+        .boxmission2{       
+            padding: 20px;        
+        } 
+    
+        .boxcalendar2,
+        .boxcalendar {
+            width: 80vw;
+        }
+        .boxcalendar2 h4,
+        .boxcalendar h4{
+            font-size: 0.7em;
+        }
+        .boxmission3{                 
+            padding: 50px 0 0 0;        
+        }
+        .boxmission3 p{        
+            font-size: 0.7em;
+        }
+        .section5{        
+            top: none;        
+        } 
+         /*FEATURES PETS **************************/
+        .boximage img,
+        .images{
+            width: 80vw;
+            height: auto;         
+        }   
+        .pets .section06 {
+            text-align: center;
+        }
+        .section06 button{        
+            margin: 0px 0 180px 0;       
+        }  
+         /*PET ADOPTION NOTES **************************/
+        .adoptionnotes_txt{       
+            flex-direction: column;       
+            text-align: center;        
+            align-items: center;
+        }   
+        .adopting_txt{
+            width: 80vw;
+        }
+         /*JOIN OUR NEWSLETTER **************************/
+         .newsletter{       
+            height: 100vh;
+        }   
+         .box_newsletter{       
+            padding-top: 100px;       
+        }    
+        .box_newsletter input[type=email]{
+            width: 90vw;       
+        }       
+        .box_newsletter input[type=submit]{
+            width: 90vw;        
+        }
+        .iconsocialmedia{
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+            /* min-width: 400px; */
+            margin: 0 auto;
+            flex-wrap: wrap;
+        }   
+         /*FOOTER ***********************************/
+        .section09{        
+            padding: 20px;        
+            flex-direction: column;       
+        }
+        .footersocialmedia{       
+            margin: 20px 0;
+        }     
+        footer{
+            height: 40vh;
+        }
+    }
+/*/////////////////////////// TELA DE 414PX /////////////////////////////////*/
+@media screen and (max-width: 414px){
     .content{
         width: 90vw;
     }
@@ -215,7 +346,7 @@
         margin: 20px 0;
     }     
     footer{
-        height: 35vh;
+        height: 40vh;
     }
 }
 /*/////////////////////////// TELA DE 320PX /////////////////////////////////*/
