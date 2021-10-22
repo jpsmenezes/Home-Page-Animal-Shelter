@@ -1,0 +1,284 @@
+/* Media Queries ****************************************************************************************/
+
+@media screen and (max-width: 1045px){
+    .serviceContent{        
+        justify-content: center;        
+    }    
+    .section5{        
+        display: flex; 
+        flex-direction: column; 
+        align-items: center;       
+    }
+    .boxcalendar2,
+    .boxcalendar {
+        width: 50vw;    
+    }
+    .boxmission3,
+    .boxmission2{
+        width: 100%;          
+    }    
+    .boxmission3{          
+        display: flex;
+        flex-direction: column;
+        align-items: center;       
+    }
+    .boxmission3 h3{       
+        text-align: center;
+    }
+}
+@media screen and (max-width: 1030px){
+    .menu-opener{
+        display: block;
+    }
+    .logo{
+        margin-left: 20px;
+    }
+    nav{
+        display: none;             
+    }    
+}
+
+@media screen and (max-width: 1015px){
+    .contanttxt{
+        display: flex; 
+        flex-direction: column;            
+        align-items: center;         
+        text-align: left;
+    }
+    .adopting{
+        width: 90%;
+    }
+    .adopting:first-child{
+        margin-bottom: 50px;
+    }
+    .btn002{
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 754px){    
+    .txtbanner{  
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+        width: 80%;   
+        top: 120px;                  
+    }
+    h1{
+        font-size: 2.5em;
+        text-align: center;        
+    }
+    p.pbanner{       
+        text-align: center;        
+    }
+}
+
+@media screen and (max-width: 655px){
+    .boxAnimals{          
+        top: 135px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 0 auto;
+                       
+    }    
+    .boxcalendar2,
+    .boxcalendar {
+        width: 400px;    
+    }
+}
+@media screen and (max-width: 550px){
+    header{        
+        padding: 25px 40px;       
+    }
+    .logo{
+        font-size: 1em; 
+        margin-left: 0;       
+    }    
+    .contanttxt{        
+        text-align: center;
+    }
+    .content{
+        width: 90vw;
+    }
+    .boxAnimals h3{
+        text-align: center;
+        font-size: 1em;
+    }    
+}
+/**************************************************************************************************/
+@media screen and (max-width: 375px){
+    .banner h3{
+        font-size: 1em;
+    }
+    h1{
+        font-size: 2em;
+    }
+    p.pbanner{
+        font-size: 0.9em;        
+        line-height: 25px;
+        margin-top: 30px;
+    }
+    .contanttxt{       
+        margin-top: 30px;       
+    }
+    h2.title{       
+        font-size: 1.7em;
+    }
+    .adopting:first-child{
+        margin-bottom: 80px;
+    }
+    .boxAnimals{
+        width: 90vw;
+        top: 50px;        
+    }
+    .section3{
+        padding: none;
+    }  
+    .boxmission{       
+        padding: 10px;       
+    } 
+    .boxmission2{       
+        padding: 20px;        
+    } 
+    .boxcalendar2,
+    .boxcalendar {
+        width: 80vw;
+    }
+    .boxcalendar2 h4,
+    .boxcalendar h4{
+        font-size: 0.7em;
+    }
+    .boxmission3{                 
+        padding: 50px 0 0 0;        
+    }
+    .boxmission3 p{        
+        font-size: 0.7em;
+    }
+    .section5{        
+        top: none;        
+    } 
+    .section06 button{        
+        margin: 0px 0 180px 0;       
+    }  
+    .adoptionnotes_txt{       
+        flex-direction: column;       
+        text-align: center;        
+        align-items: center;
+    }   
+    .adopting_txt{
+        width: 80vw;
+    }
+    .box_newsletter{       
+        padding-top: 100px;       
+    }    
+    .box_newsletter input[type=email]{
+        width: 90vw;       
+    }       
+    .box_newsletter input[type=submit]{
+        width: 90vw;        
+    }
+    .iconsocialmedia{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        /* min-width: 400px; */
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }    
+    .section09{        
+        padding: 20px;        
+        flex-direction: column;       
+    }
+    .footersocialmedia{       
+        margin: 20px 0;
+    }    
+}
+/*****************************************************************************/
+@media screen and (max-width: 320px){
+    .banner h3{
+        font-size: 1em;
+    }
+    h1{
+        font-size: 2em;
+    }
+    p.pbanner{
+        font-size: 0.9em;        
+        line-height: 25px;
+        margin-top: 30px;
+    }
+    .contanttxt{       
+        margin-top: 30px;       
+    }
+    h2.title{       
+        font-size: 1.7em;
+    }
+    .adopting:first-child{
+        margin-bottom: 80px;
+    }
+    .boxAnimals{
+        width: 90vw;
+        top: 50px;        
+    }
+    .section3{
+        padding: none;
+    }  
+    .boxmission{       
+        padding: 10px;       
+    } 
+    .boxmission2{       
+        padding: 20px;        
+    } 
+    .boxcalendar2,
+    .boxcalendar {
+        width: 80vw;
+    }
+    .boxcalendar2 h4,
+    .boxcalendar h4{
+        font-size: 0.7em;
+    }
+    .boxmission3{                 
+        padding: 50px 0 0 0;        
+    }
+    .boxmission3 p{        
+        font-size: 0.7em;
+    }
+    .section5{        
+        top: none;        
+    } 
+    .section06 button{        
+        margin: 0px 0 180px 0;       
+    }  
+    .adoptionnotes_txt{       
+        flex-direction: column;       
+        text-align: center;        
+        align-items: center;
+    }   
+    .adopting_txt{
+        width: 80vw;
+    }
+    .box_newsletter{       
+        padding-top: 100px;       
+    }    
+    .box_newsletter input[type=email]{
+        width: 90vw;       
+    }       
+    .box_newsletter input[type=submit]{
+        width: 90vw;        
+    }
+    .iconsocialmedia{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        /* min-width: 400px; */
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }    
+    .section09{        
+        padding: 20px;        
+        flex-direction: column;       
+    }
+    .footersocialmedia{       
+        margin: 20px 0;
+    }    
+}

@@ -536,6 +536,7 @@ h2.title{
     left: 0;  
     width: 100%;
     height: 120vh;
+    z-index: 996;
 }
 .newsletter::after{
     content:'';
@@ -606,8 +607,7 @@ h2.title{
 .iconsocialmedia{
     display: flex;
     justify-content: space-around;    
-    width: 50%;   
-    min-width: 400px;
+    width: 50%;     
     margin: 0 auto;
 }
 .iconsocialmedia .sm{
@@ -669,112 +669,4 @@ footer{
 }
 .footersocialmedia div:hover{
     opacity: 0.7;
-}
-/* Media Queries ****************************************************************************************/
-
-@media screen and (max-width: 1045px){
-    .serviceContent{        
-        justify-content: center;        
-    }    
-    .section5{        
-        display: flex; 
-        flex-direction: column; 
-        align-items: center;       
-    }
-    .boxcalendar2,
-    .boxcalendar {
-        width: 50vw;    
-    }
-    .boxmission3,
-    .boxmission2{
-        width: 100%;          
-    }    
-    .boxmission3{          
-        display: flex;
-        flex-direction: column;
-        align-items: center;       
-    }
-    .boxmission3 h3{       
-        text-align: center;
-    }
-}
-@media screen and (max-width: 1030px){
-    .menu-opener{
-        display: block;
-    }
-    .logo{
-        margin-left: 20px;
-    }
-    nav{
-        display: none;             
-    }    
-}
-
-@media screen and (max-width: 1015px){
-    .contanttxt{
-        display: flex; 
-        flex-direction: column;            
-        align-items: center;         
-        text-align: left;
-    }
-    .adopting{
-        width: 90%;
-    }
-    .adopting:first-child{
-        margin-bottom: 50px;
-    }
-    .btn002{
-        margin-top: 0;
-    }
-}
-
-@media screen and (max-width: 754px){    
-    .txtbanner{  
-        display: flex;
-        flex-direction: column;
-        align-items: center;  
-        width: 80%;   
-        top: 120px;                  
-    }
-    h1{
-        font-size: 2.5em;
-        text-align: center;        
-    }
-    p.pbanner{       
-        text-align: center;        
-    }
-}
-
-@media screen and (max-width: 655px){
-    .boxAnimals{          
-        top: 135px;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        margin: 0 auto;
-                       
-    }    
-    .boxcalendar2,
-    .boxcalendar {
-        width: 400px;    
-    }
-}
-@media screen and (max-width: 550px){
-    header{        
-        padding: 25px 40px;       
-    }
-    .logo{
-        font-size: 1em; 
-        margin-left: 0;       
-    }    
-    .contanttxt{        
-        text-align: center;
-    }
-    .content{
-        width: 90vw;
-    }
-    .boxAnimals h3{
-        text-align: center;
-        font-size: 1em;
-    }    
 }
