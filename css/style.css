@@ -15,6 +15,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+a:visited{
+    color: none;
+}
+a:active{
+    color:none;
+}
 body{
     font-family: 'Poppins', sans-serif;     
 }
@@ -91,7 +97,7 @@ header.sticky{
     top: 0;
     left: 0;    
     width: 100%; 
-    height:120vh;    
+    height:110vh;    
     object-fit: cover;    
 }
 .txtbanner{
