@@ -20,6 +20,7 @@ body{
 }
 .content{
     width: 70vw;
+    max-width: 1050px;
     margin: auto;        
 }
 /*Header *************************************************************************************/
@@ -156,7 +157,7 @@ button.btn02:hover{
     left: 0;    
     width: 100%;
     height: 100%; 
-    z-index: 998;    
+    z-index: 996;    
 }
 h3.subtitle{
     color: #797979;
