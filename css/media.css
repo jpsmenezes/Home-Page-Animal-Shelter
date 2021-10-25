@@ -56,6 +56,12 @@
     .btn002{
         margin-top: 0;
     }
+    .txtbanner{          
+        left: 0;        
+        right: 0;
+        bottom: 0;
+        margin: auto;
+    }
 }
 @media screen and (max-width: 958px){
     .menu-toggle{
