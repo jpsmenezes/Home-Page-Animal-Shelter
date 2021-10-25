@@ -11,3 +11,16 @@ window.addEventListener('scroll',function(){
     image.style.top = value * 0.5 + "px"; 
 })
 
+// Menu toggle
+let show = true;
+
+const menuSection = document.querySelector('.menu-section');
+const menuToggle = menuSection.querySelector('.menu-toggle');
+
+menuToggle.addEventListener('click', () => {    
+    document.body.style.overflow = show ? "hidden" : "initial"; //evitando a rolagen da tela, usando condicional ternario
+    
+    menuSection.classList.toggle('on', show)
+    show = !show;
+})
+

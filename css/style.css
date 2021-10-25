@@ -83,9 +83,19 @@ header a>li:hover{
 header.sticky{
     padding: 10px 40px;    
 }
-.menu-opener{
+.menu-toggle{
     display: none;
-    width: 20px;    
+    width: 30px;
+    height: 20px;    
+}
+.one,
+.two,
+.three{
+    background-color: #000;
+    width: 100%;
+    height: 4px;
+    margin: 6px auto;
+    transition-duration: 0.3s;
 }
 /*Banner ************************************************************************************************/
 .banner{
