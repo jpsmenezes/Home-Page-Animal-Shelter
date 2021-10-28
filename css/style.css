@@ -94,7 +94,7 @@ header.sticky{
     background-color: #000;
     width: 100%;
     height: 4px;
-    margin: 6px auto;
+    margin: 5px auto;
     transition-duration: 0.3s;
 }
 /*Banner ************************************************************************************************/
@@ -458,7 +458,7 @@ h2.title{
     justify-content:space-around;
 }
 .images{
-    width: 250px;
+    width: 280px;
     height: 400px;
     text-align: left;
     margin: 20px;
@@ -687,3 +687,24 @@ footer{
 .footersocialmedia div:hover{
     opacity: 0.7;
 }
+
+/*/////////////////////////// ANIMAÇÃO /////////////////////////////////*/
+[data-anime]{
+    opacity: 0;
+    transition: .6s;
+}
+[data-anime="opacity"]{
+    opacity: 0;
+}
+[data-anime="top"]{
+    transform: translate3d(0px, -50px, 0px);
+}
+[data-anime="zoom"]{
+    transform: scale(0.5, 0.5);
+}
+[data-anime].animate {
+    opacity:1;
+    transform: translate3d(0px, 0px, 0px);
+    transform: scale(1, 1);
+}
+/*/////////////////////////////////////////////////////////////////////////*/

@@ -90,7 +90,7 @@
     .menu-section.on .menu-toggle {
         position: absolute;
         right: 40px;
-        top: 25px;
+        top: 26px;
     }
 
     .menu-section.on .one {
@@ -102,7 +102,7 @@
     }
 
     .menu-section.on .three {
-        transform: rotate(-45deg) translate(6px, -8px);
+        transform: rotate(-45deg) translate(5px, -7px);
     }
 
     .menu-section.on nav ul {
