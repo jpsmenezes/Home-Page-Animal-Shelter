@@ -86,7 +86,8 @@ header.sticky{
 .menu-toggle{
     display: none;
     width: 30px;
-    height: 20px;    
+    height: 20px; 
+    cursor: pointer;   
 }
 .one,
 .two,
@@ -341,12 +342,9 @@ h2.title{
     width: 100%;
     height: auto;
 }
-.section4{
-    position: relative;
-}
 .boxmission{    
     position: relative;
-    top: -150px;
+    top: -100px;
     left: 0;
     width: 100%;
     background-color:var(--btn-color1);
@@ -365,9 +363,7 @@ h2.title{
 .boxmission h2{
     margin-bottom: 20px;
 }
-.section5{
-    position: relative;
-    top: -100px;
+.section5{    
     display: flex;  
     height: auto;   
 }
@@ -447,7 +443,8 @@ h2.title{
 /*Features Pets **************************************************************************************/
 .pets{   
     width: 100%;
-    height: auto;   
+    height: auto; 
+    margin-top: 70px;  
 }
 .pets .section06{   
     text-align: center;
@@ -461,7 +458,7 @@ h2.title{
     width: 280px;
     height: 400px;
     text-align: left;
-    margin: 20px;
+    margin-top: 20px;
 }
 .images h3{
     font-size: 1.2em;

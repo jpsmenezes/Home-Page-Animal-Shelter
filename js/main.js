@@ -38,7 +38,6 @@ function animeScroll(){
         }
     })
 }
-animeScroll()
 window.addEventListener('scroll', function(){
-    animeScroll()   
+    animeScroll() ;  
 })
